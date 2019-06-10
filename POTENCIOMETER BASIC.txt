@@ -2,7 +2,7 @@
  * LCDPRO1.c
  *
  * Created: 6/7/2019 11:54:47 AM
- * Author : GUTTA SRUTHI
+ * Author : AKULA PRASHANTHISREE
  */ 
 
 #ifndef F_CPU
