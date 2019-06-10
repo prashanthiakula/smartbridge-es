@@ -2,7 +2,7 @@
  * LDR4.c
  *
  * Created: 6/8/2019 3:08:25 PM
- * Author : GUTTA SRUTHI
+ * Author : AKULA PRASHANTHISREE
  */ 
 
 #define  F_CPU 16000000UL
