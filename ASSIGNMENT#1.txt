@@ -1,0 +1,150 @@
+1.swapping two numbers:
+Program:
+#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	scanf("%d %d",&a,&b);
+	printf("a,b=%d %d\n",a,b);
+	c=b;
+	b=a;
+	a=c;
+	printf("a,b=%d\n %d\n",a,b);
+	
+}
+2.even or odd:
+Program:
+#include<stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+		if(n%2==0)
+		printf("even=%d",n);
+		else
+		printf("odd=%d",n);	
+}
+
+
+
+
+
+ASSIGNMENT:DAY-3
+1)Integer,float and double using different access specifier
+#include<stdio.h>
+int main()
+{
+	int a=56;
+	float b=23.45234;
+	printf("integer=%d\n",a);
+	printf("float=%f\n",b);
+	printf("double=%lf\n",b);
+
+}
+2)Print 1 to 120 using for loop,while loop,do while loop
+For loop:
+int main()
+{
+	int n;
+	for(n=1;n<=120;n++)
+	   printf("%d\n",n);
+	   
+}
+While loop:
+#include<stdio.h>
+int main()
+{
+	int n=1;
+	while(n<=120)
+	  {
+	    printf("%d\n",n);
+	   n++;
+}
+}
+Do while loop:
+#include<stdio.h>
+int main()
+{
+	int n=1;
+	do
+	  {
+	    printf("%d\n",n);
+	   n++;
+}while(n<=120);
+}
+3)Write a program to print sum of 10 numbers
+#include<stdio.h>
+int main()
+{
+	int n=1;
+	do
+	  {
+	    printf("%d\n",n);
+	   n++;
+}while(n<=120);
+}
+4)Sum of even and odd numbers upto 100 numbers
+#include<stdio.h>
+int main()
+{
+	int n,i=0,j=0;
+	for(n=1;n<=100;n++)
+	{
+	
+	  if(n%2==0)
+	    i=i+n;
+	else
+	   j=j+n;
+    } 
+    	printf("%d\n%d\n",i,j); 
+	
+}
+5)If int x=10,y=8 then write a program to find x&y,x|y,x^y
+#include<stdio.h>
+int main()
+{
+	int x=10,y=8,a,b,c;
+	a=x^y;
+	b=x|y;
+	c=x&y;
+	printf("%d\n%d\n%d\n",a,b,c);
+	
+	
+}
+6)Take two numbers and find out greater and smaller number
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	scanf("%d %d",&a,&b);
+	if(a>b)
+	  printf("a %d is larger number and b %d is smaller number",a,b);
+	
+    else
+		  printf("b %d is larger number and a %d is smaller number",b,a); 
+	
+	
+	
+}
+7)Using conditional operator find the largest number amoung two numbers
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	scanf("%d %d",&a,&b);
+	(a>b)?printf("a=%d",a):printf("b=%d",b);
+}
+8)Program to find largest number among three numbers
+#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	scanf("%d %d %d",&a,&b,&c);
+	if(a>b && a>c)
+	  printf("a is largest number:%d",a);
+	else if(b>c)
+	  printf("b is largest number :%d",b); 
+	else 
+	  printf("c is largest number :%d",c);
+	
+} 
